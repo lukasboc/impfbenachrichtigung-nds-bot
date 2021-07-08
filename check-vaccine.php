@@ -7,7 +7,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 //Your personal Information (required)
 $zipCode = '12345'; //Example: 26127
-$birthdate = '01.01.2000'; //Without dots for for 01.01.2000
+$birthdate = '01.01.2000'; //Example: 01.01.2000
 $birthdate = str_replace('.','',$birthdate);
 
 // for which vaccine types do you want to get notifications?
