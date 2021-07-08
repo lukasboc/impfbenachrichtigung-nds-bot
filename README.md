@@ -17,6 +17,9 @@ Geeignet ist dieses Ergebnis insbesondere für Personen, die z.B. cronjobs auf e
 
 Der gesamte Ordner kann dann auf einen beliebigen Webspace geladen werden. Natürlich geht's auch mit einem lokalen Webserver. Anschließend kann wenn gewünscht ein cronjob eingerichtet werden, der z.B. alle 30 Minuten die check-vaccine.php aufruft. Bitte lassen Sie das Skript nicht zu häufig aufrufen, um die Server des Impfportals nicht unnötig zu belasten.
 
+Beispiel für einen Cronjob, der alle 30 Minuten das Skript ausführt und bei Verfügbarkeit eine E-Mail verschickt:
+
+`*/30  *  *  *  * php -f /<path-to>/check-vaccine.php`
 ## Problemlösung
 * Wenn keine E-Mails ankommen, liegt es höchstwahrscheinlich daran, dass die Autentifizierung beim Sender-Postfach fehlschlägt. Getestet wurde dies lediglich mit einem neuen GMX-Postfach. Stellen Sie in jedem Fall sicher, dass unter "E-Mail > Einstellungen > POP3/IMAP Abruf" der Haken bei "POP3 und IMAP Zugriff erlauben" gesetzt wurde. Das gleiche sollte für WEB.de gelten.
 
