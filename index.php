@@ -1,3 +1,2 @@
 <?php
-echo 'hi';
-echo 'lol';
+echo 'This page does exist!';
