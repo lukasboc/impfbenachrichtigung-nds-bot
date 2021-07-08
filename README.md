@@ -5,10 +5,10 @@ Ob für Vektor-Impfstoffe, für mRNA-Impfstoffe oder für beide Varianten, kann 
 
 Geeignet ist dieses Ergebnis insbesondere für Personen, die z.B. cronjobs auf einem Server einrichten möchten, damit der Bot unabhängig vom heimischen Computer läuft. Es genügt dabei, die check-vaccine.php im Wurzelverzeichnis aufzurufen.
 
-##Features
+## Features
 * E-Mail Benachrichtigung wenn gewünschter Impfstofftyp im Impfzentrum in der Nähe verfügbar ist.
 
-##Einrichtung
+## Einrichtung
 * Repository herunterladen
 * Check-vaccine.php mit einem Text-Editor öffnen
 * Alle Felder in der "CONFIGURATION AREA" ausfüllen. WICHTIG!
@@ -17,10 +17,10 @@ Geeignet ist dieses Ergebnis insbesondere für Personen, die z.B. cronjobs auf e
 
 Der gesamte Ordner kann dann auf einen beliebigen Webspace geladen werden. Natürlich geht's auch mit einem lokalen Webserver. Anschließend kann wenn gewünscht ein cronjob eingerichtet werden, der z.B. alle 30 Minuten die check-vaccine.php aufruft. Bitte lassen Sie das Skript nicht zu häufig aufrufen, um die Server des Impfportals nicht unnötig zu belasten.
 
-##Problemlösung
+## Problemlösung
 * Wenn keine E-Mails ankommen, liegt es höchstwahrscheinlich daran, dass die Autentifizierung beim Sender-Postfach fehlschlägt. Getestet wurde dies lediglich mit einem neuen GMX-Postfach. Stellen Sie in jedem Fall sicher, dass unter "E-Mail > Einstellungen > POP3/IMAP Abruf" der Haken bei "POP3 und IMAP Zugriff erlauben" gesetzt wurde. Das gleiche sollte für WEB.de gelten.
 
-##Sonstiges
+## Sonstiges
 Wenn Ihnen das Projekt geholfen hat oder einfach gefällt, lassen Sie es mich gerne über den Diskussion-Bereich im Github-Repository wissen. 
 
 Wenn Sie das Tool nicht selber betreiben wollen/können, lassen Sie es mich gerne über das Kontaktformular auf https://lubomedia.de wissen.
